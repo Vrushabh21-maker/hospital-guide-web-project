@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sarkari OPD Guide</title>
+  <link rel="stylesheet" href="../css/project.css">
+</head>
+<body>
+
+<header>
+  <h1>🏥 Sarkari OPD Guide</h1>
+  <p>Find the right government hospital OPD before you go</p>
+</header>
+
+<section class="search-box">
+  <h2>Find OPD</h2>
+
+  <select id="symptom">
+    <option value="">Select problem</option>
+    <option value="burning">Burning sensation</option>
+    <option value="neuro">Seizures / Fits</option>
+    <option value="stomach">Stomach pain</option>
+    <option value="skin">Skin problem</option>
+    <option value="chest">Chest pain</option>
+    <option value="paralysis">Sudden paralysis</option>
+  </select>
+
+  <select id="city">
+    <option value="">Select city</option>
+    <option value="pune">Pune</option>
+    <option value="mumbai">Mumbai</option>
+  </select>
+
+  <button onclick="findOPD()">Find OPD</button>
+</section>
+
+<section id="result" class="result"></section>
+
+<footer>
+  <p>Made to help patients navigate government hospitals ❤️</p>
+</footer>
+
+<script src="../js/myProject.js"></script>
+</body>
+</html>
